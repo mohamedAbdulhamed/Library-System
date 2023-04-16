@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    color:rgb(54, 135, 211);
+}
+
+.create_btn{
+    float: right;
+}
+
+/* Path: frontend\src\pages\Chapter\Chapter.js */
+
+.dashboard-body .container{
+    margin: 0 !important;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+h2.MR, .create_btn {
+    margin: 50px 0 0 0 !important;
+    padding: 0;
+}
+
+table.table {
+    margin: 80px 0 0 0;
+    max-width: calc(100% - 100px);
+    padding: 0 50px 0 50px !important;
+    overflow: hidden;
+}
+
+table.table tr td {
+    margin: 0;
+    max-width: 240px;
+    text-overflow: clip;
+}
+table.table tr td {
+    margin: 0;
+    max-width: 240px;
+    text-overflow: clip;
+}
+table.table tr td.book, table.table tr td.chtitle {
+    max-width: 90px !important;
+}
+table.table tr td.action {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
