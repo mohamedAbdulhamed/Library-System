@@ -1,0 +1,43 @@
+.offset-lg-3.col-lg-6 {
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.MR {
+  margin-right: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
