@@ -1,0 +1,64 @@
+:root{
+    --tx-sh-color: #03bcf4;
+}
+h2.ref-header{
+    position: relative;
+    font-size: 6em;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below -42px linear-gradient(transparent, #0004); /* Reflection of the header(All Spans) *Below the Words -> 42px* */
+}
+h2.ref-header span{
+    margin: 5px;
+    padding: 5px;
+    animation: ref-animate 5s linear infinite; /* You Can Try - forward - depends on the project */
+    -webkit-animation: ref-animate 5s linear infinite; /* Prefixes */
+}
+/* Control The Delay of The Span - Numbers of Spans changes Depends On the Sentence. */
+h2.ref-header span:nth-child(2){
+    animation-delay: 0.5s;
+}
+h2.ref-header span:nth-child(3){
+    animation-delay: 0.7s;
+}
+/* End Reflection */
+
+
+
+/* Start Aniamtion */
+@keyframes ref-animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px var(--tx-sh-color),
+        0 0 20px var(--tx-sh-color),
+        0 0 40px var(--tx-sh-color),
+        0 0 80px var(--tx-sh-color),
+        0 0 160px var(--tx-sh-color),
+        0 0 400px var(--tx-sh-color);
+    }
+}
+/* End Animation */
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+.team-container .team-member {
+    width: 250px;
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

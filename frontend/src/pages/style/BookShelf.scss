@@ -1,0 +1,35 @@
+.bookshelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.book h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.book p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.2;
+}

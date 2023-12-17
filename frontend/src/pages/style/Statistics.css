@@ -1,0 +1,14 @@
+.search, .bookmetrices, .system {
+    padding-top: var(--pad);
+    padding-bottom: var(--pad);
+    position: relative;
+    background-color: var(--section-color);
+
+}
+
+.user, .libevents {
+    padding-top: var(--pad);
+    padding-bottom: var(--pad);
+    position: relative;
+    background-color: #fff;
+}
